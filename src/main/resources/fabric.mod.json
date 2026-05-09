@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "seasonal_villages",
+  "version": "${version}",
+  "name": "Seasonal Villages",
+  "description": "Villages celebrate, stockpile, and shelter through a gentle four-season cycle.",
+  "authors": [
+    "ukian",
+    "Codex"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/seasonal_villages/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.codex.seasonalvillages.SeasonalVillagesMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
